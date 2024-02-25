@@ -1,0 +1,24 @@
+{
+    "name": "solution-wdio-appium",
+    "version": "1.0.0",
+    "description": "Solution of the take home challenge",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "wdio": "wdio run wdio.conf.ts"
+    },
+    "author": "Daria T",
+    "license": "ISC",
+    "devDependencies": {
+        "@wdio/appium-service": "^8.32.3",
+        "@wdio/cli": "^8.32.3",
+        "@wdio/cucumber-framework": "^8.32.3",
+        "@wdio/local-runner": "^8.32.3",
+        "@wdio/spec-reporter": "^8.32.2",
+        "appium-xcuitest-driver": "^7.1.2",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.3.3",
+        "wdio-wait-for": "^3.0.11",
+        "webdriverio": "^8.32.3"
+    }
+}
