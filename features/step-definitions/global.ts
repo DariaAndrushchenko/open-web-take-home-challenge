@@ -3,6 +3,7 @@ import { Given, BeforeAll } from '@wdio/cucumber-framework';
 import { driver, $ } from '@wdio/globals'
 import { WELCOME_SCREEN_IDS } from '../../const';
 
+// Should be env variable
 const PASSWORD = 'OpenWebQA'
 
 BeforeAll(async () => {
